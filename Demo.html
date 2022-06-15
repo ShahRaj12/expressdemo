@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+</head>
+<body>
+<center>
+    <h1>Register</h1>
+<table border="2">
+<form action="/register" method="post">
+    <tr> <td> First Name: <input type="text" name="fn"> </td> </tr>
+
+    <tr> <td> Last Name: <input type="text" name="ln"> </td> </tr>
+
+    <tr> <td> User Name: <input type="text" name="un"> </td> </tr>
+
+    <tr> <td> Password: <input type="password" name="pw"> </td> </tr>
+
+    <tr> <td> Address: <textarea name="add"> </textarea> </td> </tr>
+
+    <tr> <td> <label for="gn"> Gender: </label>
+            <input type="radio" name="gn" value="Male"> Male
+            <input type="radio" name="gn" value="Female"> Female </td> </tr>
+
+    <tr> <td> <label> City: </label>
+        <select name="city">
+            <option>--Select--</option>
+            <option name="city" > Ahmedabad </option>
+            <option name="city" > Vadodara </option>
+            <option name="city" > Surat </option>
+            <option name="city" > Mehsana </option>
+        </select> </td> </tr>
+
+    <tr> <td> <label for="hbs"> Hobbies: </label>
+            <input type="checkbox" name="hbs" value="Cooking"> Cooking
+            <input type="checkbox" name="hbs" value="Singing"> Singing
+            <input type="checkbox" name="hbs" value="Painting"> Painting </td> </tr>
+
+    <tr> <td> <center> <input type="submit" value="SUBMIT"> </center> </td> </tr>
+
+</form>
+</table>
+</center>
+</body>
+</html>
